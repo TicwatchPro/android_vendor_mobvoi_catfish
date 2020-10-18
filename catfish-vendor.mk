@@ -45,9 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/mobvoi/catfish/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
     vendor/mobvoi/catfish/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/mobvoi/catfish/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/mobvoi/catfish/proprietary/vendor/etc/firmware/a300_pfp.fw:system/vendor/etc/firmware/a300_pfp.fw \
-    vendor/mobvoi/catfish/proprietary/vendor/etc/firmware/a300_pm4.fw:system/vendor/etc/firmware/a300_pm4.fw \
     vendor/mobvoi/catfish/proprietary/vendor/firmware/BCM43430B0.hcd:system/vendor/firmware/BCM43430B0.hcd \
+    vendor/mobvoi/catfish/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/mobvoi/catfish/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/mobvoi/catfish/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/mobvoi/catfish/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/mobvoi/catfish/proprietary/vendor/firmware/it7259.cfg:system/vendor/firmware/it7259.cfg \
@@ -99,10 +99,15 @@ PRODUCT_COPY_FILES += \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/libsdmcore.so:system/vendor/lib/libsdmcore.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/soundfx/libbundlewrapper.so:system/vendor/lib/soundfx/libbundlewrapper.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/soundfx/libdownmix.so:system/vendor/lib/soundfx/libdownmix.so \
