@@ -60,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/mobvoi/catfish/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/hw/gralloc.msm8909.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8909.so \
+    vendor/mobvoi/catfish/proprietary/vendor/lib/hw/hwcomposer.msm8909.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.msm8909.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/hw/nfc_nci.st21.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.st21.default.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/hw/sensors.nanohub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.nanohub.so \
     vendor/mobvoi/catfish/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
